@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3e2cb3f0a9574276b0b801ca9c0568a7" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="ShowTrackerModel.Venue" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShowTrackerModel.VenueLogin" Width="1.5" PointX="8" PointY="1.375" />
+        <AssociationConnector Association="ShowTrackerModel.FK__VenueLogi__Venue__31EC6D26" />
+        <EntityTypeShape EntityType="ShowTrackerModel.Artist" Width="1.5" PointX="3.375" PointY="5.375" />
+        <EntityTypeShape EntityType="ShowTrackerModel.Fan" Width="1.5" PointX="5.625" PointY="5.375" />
+        <EntityTypeShape EntityType="ShowTrackerModel.FanLogin" Width="1.5" PointX="7.875" PointY="5.375" />
+        <EntityTypeShape EntityType="ShowTrackerModel.LoginHistory" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="ShowTrackerModel.Show" Width="1.5" PointX="4" PointY="1.25" />
+        <EntityTypeShape EntityType="ShowTrackerModel.ShowDetail" Width="1.5" PointX="2.125" PointY="1.5" />
+        <AssociationConnector Association="ShowTrackerModel.FK__ShowDetai__Artis__300424B4" />
+        <AssociationConnector Association="ShowTrackerModel.FK__FanLogin__FanKey__2E1BDC42" />
+        <AssociationConnector Association="ShowTrackerModel.FK__Show__VenueKey__2F10007B" />
+        <AssociationConnector Association="ShowTrackerModel.FK__ShowDetai__ShowK__30F848ED" />
+        <AssociationConnector Association="ShowTrackerModel.FanArtist" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
